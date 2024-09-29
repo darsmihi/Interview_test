@@ -1,0 +1,133 @@
+/* Search and Filter Container */
+.search-filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .search-filter-container input,
+  .search-filter-container select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Search and Filter Tags */
+  .filter-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .filter-tag {
+    background-color: #f0f3ff;
+    color: #2f54eb;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-tag button {
+    background: none;
+    border: none;
+    color: #2f54eb;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  /* Job List Grouping by Department */
+  .department-group {
+    margin-top: 30px;
+  }
+  
+  .department-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2f54eb;
+    margin-bottom: 10px;
+  }
+  
+  .job-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .job-info span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .job-info .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-location,
+  .job-type {
+    background-color: #eef1ff;
+    color: #2f54eb;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .job-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .job-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .job-actions .apply-btn {
+    background-color: #2f54eb;
+    color: #fff;
+  }
+  
+  .job-actions .view-btn {
+    background-color: #ffffff;
+    color: #2f54eb;
+    border: 1px solid #2f54eb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .job-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .job-actions {
+      margin-top: 10px;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .job-actions button {
+      width: 100%;
+    }
+  }
+  

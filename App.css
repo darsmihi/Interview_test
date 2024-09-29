@@ -1,0 +1,64 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-filter-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.job-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.job-type {
+  background-color: #eef1ff;
+  color: #2f54eb;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.apply-btn,
+.view-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn {
+  background-color: #2f54eb;
+  color: #fff;
+}
+
+.view-btn {
+  background-color: #ffffff;
+  color: #2f54eb;
+  border: 1px solid #2f54eb;
+}
+
